@@ -24,4 +24,10 @@ public class AlipayConfig {
     public static  String LOG_PATH = "/log";
     //支付网关 正式环境("https://openapi.alipay.com/gateway.do";)无dev
     public static  String GATEWAY_URL = "https://openapi.alipaydev.com/gateway.do";
+    // 最近最沙箱测试,支付宝回调的notify_url中会出现几种订单状态，其中有 TRADE_FINISHED和TRADE_SUCCESS
+    // 这两个状态我也了解了一下，我的问题是
+    // ① 退款不退款，它到底是在哪里设置？
+    // ② 是不是只能商户签约了才可以设置这个？沙箱环境不能测这个
+    // ③ 是不是设置了不可退款，它就每次都只会返回TRADE_FINISHED，而不会再出现TRADE_SUCCESS
+    // 望有相关经验的朋友请指点指点，谢谢大家
 }
