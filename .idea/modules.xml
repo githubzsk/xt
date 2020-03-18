@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/xt.iml" filepath="$PROJECT_DIR$/.idea/xt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xt-solarpower/xt-solarpower.iml" filepath="$PROJECT_DIR$/xt-solarpower/xt-solarpower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xt-solarpower-api/xt-solarpower-api.iml" filepath="$PROJECT_DIR$/xt-solarpower-api/xt-solarpower-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xt-solarpower-service/xt-solarpower-service.iml" filepath="$PROJECT_DIR$/xt-solarpower-service/xt-solarpower-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xt-solarpower-web/xt-solarpower-web.iml" filepath="$PROJECT_DIR$/xt-solarpower-web/xt-solarpower-web.iml" />
+    </modules>
+  </component>
+</project>

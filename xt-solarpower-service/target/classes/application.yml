@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: solarpower-service
+  registry:
+    address: zookeeper://139.9.154.17:2181
+  protocol:
+    name: dubbo
+    port: 20881
+  monitor: registry
+  metadata-report:
+    address: zookeeper://139.9.154.17:2181
+  config-center:
+    address: zookeeper://139.9.154.17:2181
+server:
+  port: 9091
+

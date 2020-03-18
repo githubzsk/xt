@@ -1,0 +1,17 @@
+dubbo:
+  application:
+    name: solarpower-web
+  registry:
+    address: zookeeper://139.9.154.17:2181
+  monitor: registry
+  metadata-report:
+    address: zookeeper://139.9.154.17:2181
+  config-center:
+    address: zookeeper://139.9.154.17:2181
+server:
+  port: 8080
+    
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
